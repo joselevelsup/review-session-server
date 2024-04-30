@@ -1,1 +1,5 @@
-//TODO: Add prisma client and export for the routes to use
+import {Prisma, PrismaClient} from "@prisma/client"
+
+const prisma = new PrismaClient();
+
+export default prisma;
